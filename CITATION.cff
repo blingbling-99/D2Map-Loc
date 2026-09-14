@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the D²Map-Loc paper."
+title: "D²Map-Loc: Keep Diverse Descriptors for Compact Camera Localization"
+type: software
+version: 0.1.0
+repository-code: "https://github.com/blingbling-99/D2Map-Loc"
+authors:
+  - family-names: Liu
+    given-names: Shanshan
+  - family-names: Zhang
+    given-names: Tianshuo
+  - family-names: Wang
+    given-names: Wei
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: "D²Map-Loc: Keep Diverse Descriptors for Compact Camera Localization"
+  authors:
+    - family-names: Liu
+      given-names: Shanshan
+    - family-names: Zhang
+      given-names: Tianshuo
+    - family-names: Wang
+      given-names: Wei
+  conference:
+    name: "IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)"
+  year: 2027
