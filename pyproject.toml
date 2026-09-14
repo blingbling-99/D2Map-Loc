@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "d2map-loc"
 version = "0.1.0"
-description = "D²Map-Loc: deterministic descriptor-diverse selection for compact camera-localization maps"
+description = "D²Map-Loc: Descriptor-Diverse Map Selection for Budgeted Camera Localization"
 readme = "README.md"
 requires-python = ">=3.9"
 license = "MIT"
