@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "d2map-loc"
+version = "0.1.0"
+description = "D²Map-Loc: deterministic descriptor-diverse selection for compact camera-localization maps"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [
+  {name = "Shanshan Liu"},
+  {name = "Tianshuo Zhang"},
+  {name = "Wei Wang"},
+]
+dependencies = ["numpy>=1.23", "torch>=2.0"]
+keywords = ["camera localization", "landmark selection", "map coreset", "descriptors"]
+
+[project.urls]
+Repository = "https://github.com/blingbling-99/D2Map-Loc"
+
+[project.scripts]
+d2map-loc = "d2map_loc.cli:main"
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
