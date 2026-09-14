@@ -1,7 +1,7 @@
 # D²Map-Loc
 
-Official core implementation of **D²Map-Loc: Keep Diverse Descriptors for
-Compact Camera Localization** (ICASSP 2027 submission).
+Official core implementation of **D²Map-Loc: Descriptor-Diverse Map Selection
+for Budgeted Camera Localization** (ICASSP 2027 submission).
 
 D²Map-Loc is a deterministic, training-free selector for retaining exactly
 `K` original descriptor/XYZ pairs from a completed localization map. It covers
@@ -108,7 +108,7 @@ please cite the submission:
 
 ```bibtex
 @inproceedings{liu2027d2maploc,
-  title     = {D$^{2}$Map-Loc: Keep Diverse Descriptors for Compact Camera Localization},
+  title     = {D$^{2}$Map-Loc: Descriptor-Diverse Map Selection for Budgeted Camera Localization},
   author    = {Liu, Shanshan and Zhang, Tianshuo and Wang, Wei},
   booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},
   year      = {2027}
